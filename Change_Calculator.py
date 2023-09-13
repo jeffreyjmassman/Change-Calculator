@@ -18,9 +18,6 @@ def main():
 
     return 0
 
-'''Function that calculates the change you owe to the customer, written in bills and coins. Note
-    that this function does not include half dollars.'''
-
 '''Determines whether or not to add an 's' at the end of the return string, e.g. "quarter" vs "quarters" '''
 
 def add_s(number):
@@ -38,6 +35,9 @@ def pennyOrPennies(number):
         return "Penny"
     else:
         return "Pennies"
+    
+'''Function that calculates the change you owe to the customer, written in bills and coins. Note
+    that this function does not include half dollars.'''
 
 def change_calculator():
 
